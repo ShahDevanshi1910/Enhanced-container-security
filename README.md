@@ -26,7 +26,6 @@ This project simulates contemporary container attacks and implements a secure De
 ---
 
 ## File Structure
-.
 ├── .gitlab-ci.yml       # GitLab CI/CD configuration
 ├── Dockerfile           # Container build file
 ├── scan_report.txt      # Output artifact from Trivy
