@@ -25,18 +25,14 @@ This project simulates contemporary container attacks and implements a secure De
 
 ---
 
+
 ## File Structure
 ├── .gitlab-ci.yml       # GitLab CI/CD configuration
 ├── Dockerfile           # Container build file
 ├── scan_report.txt      # Output artifact from Trivy
 ├── README.md            # Project description
 
-## Steps
-1. git clone https://github.com/your-username/enhanced-container-security.git
-2. cd enhanced-container-security
-3. docker build -t local-test-image .
-4. trivy image --severity HIGH,CRITICAL local-test-image
-
+---
 ## CI/CD Pipeline Stages
 
 ### 1. `Lint`
