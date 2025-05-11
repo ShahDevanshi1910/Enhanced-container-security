@@ -1,5 +1,4 @@
-# Enhanced-container-security
-# 🚀 Enhanced Container Security
+# Enhanced Container Security
 
 This project simulates contemporary container attacks and implements a secure DevSecOps pipeline to detect and mitigate vulnerabilities using open-source security tools such as **Hadolint** and **Trivy**. A custom security application is developed and integrated into the CI/CD pipeline using **GitLab CI/CD**.
 
