@@ -59,4 +59,4 @@ trivy image --severity HIGH,CRITICAL --format table <image_name> > scan_report.t
 if grep -q "CRITICAL\|HIGH" scan_report.txt; then
   echo "Vulnerabilities found."
   exit 1
-f1
+fi
