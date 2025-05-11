@@ -3,7 +3,6 @@
 This project simulates contemporary container attacks and implements a secure DevSecOps pipeline to detect and mitigate vulnerabilities using open-source security tools such as **Hadolint** and **Trivy**. A custom security application is developed and integrated into the CI/CD pipeline using **GitLab CI/CD**.
 
 ---
-
 ## Project Overview
 
 - **Objective**: Enhance container security by detecting vulnerabilities early in the development pipeline.
@@ -25,6 +24,19 @@ This project simulates contemporary container attacks and implements a secure De
 | Scripting/Automation | Shell scripting       |
 
 ---
+
+## File Structure
+.
+├── .gitlab-ci.yml       # GitLab CI/CD configuration
+├── Dockerfile           # Container build file
+├── scan_report.txt      # Output artifact from Trivy
+├── README.md            # Project description
+
+## Steps
+1. git clone https://github.com/your-username/enhanced-container-security.git
+2. cd enhanced-container-security
+3. docker build -t local-test-image .
+4. trivy image --severity HIGH,CRITICAL local-test-image
 
 ## CI/CD Pipeline Stages
 
@@ -53,15 +65,6 @@ if grep -q "CRITICAL\|HIGH" scan_report.txt; then
   echo "Vulnerabilities found."
   exit 1
 fi
-
----
-
-**## Project Overview**
-.
-├── .gitlab-ci.yml       # GitLab CI/CD configuration
-├── Dockerfile           # Container build file
-├── scan_report.txt      # Output artifact from Trivy
-├── README.md            # Project description
 
 ---
 **## Steps**
