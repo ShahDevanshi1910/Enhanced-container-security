@@ -54,6 +54,7 @@ if grep -q "CRITICAL\|HIGH" scan_report.txt; then
   exit 1
 fi
 
+---
 ## File Structure
 .
 ├── .gitlab-ci.yml       # GitLab CI/CD configuration
@@ -61,8 +62,8 @@ fi
 ├── scan_report.txt      # Output artifact from Trivy
 ├── README.md            # Project description
 
+---
 ## Steps
-
 1. git clone https://github.com/your-username/enhanced-container-security.git
 2. cd enhanced-container-security
 3. docker build -t local-test-image .
