@@ -55,7 +55,8 @@ if grep -q "CRITICAL\|HIGH" scan_report.txt; then
 fi
 
 ---
-## File Structure
+
+**## Project Overview**
 .
 ├── .gitlab-ci.yml       # GitLab CI/CD configuration
 ├── Dockerfile           # Container build file
@@ -63,7 +64,7 @@ fi
 ├── README.md            # Project description
 
 ---
-## Steps
+**## Steps**
 1. git clone https://github.com/your-username/enhanced-container-security.git
 2. cd enhanced-container-security
 3. docker build -t local-test-image .
