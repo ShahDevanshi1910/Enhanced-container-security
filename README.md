@@ -4,7 +4,7 @@ This project simulates contemporary container attacks and implements a secure De
 
 ---
 
-## 🧩 Project Overview
+## Project Overview
 
 - **Objective**: Enhance container security by detecting vulnerabilities early in the development pipeline.
 - **Scope**: 
@@ -15,7 +15,7 @@ This project simulates contemporary container attacks and implements a secure De
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 | Category        | Tool/Technology          |
 |----------------|---------------------------|
@@ -26,7 +26,7 @@ This project simulates contemporary container attacks and implements a secure De
 
 ---
 
-## ⚙️ CI/CD Pipeline Stages
+## CI/CD Pipeline Stages
 
 ### 1. `Lint`
 - Tool: **Hadolint**
@@ -42,7 +42,7 @@ This project simulates contemporary container attacks and implements a secure De
 
 ---
 
-## 🧪 Vulnerability Scanning Logic
+## Vulnerability Scanning Logic
 
 ```bash
 # Trivy scan command
